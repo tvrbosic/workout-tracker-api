@@ -1,4 +1,4 @@
-# Workout Tracker Website API
+# Workout Tracker Website API - work in progress
 
 Workout planning and tracking website's API.
 
