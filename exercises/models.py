@@ -1,6 +1,6 @@
 from django.db import models
 
-class Execise(models.Model):
+class Exercise(models.Model):
     name = models.CharField(max_length=50, null=False, blank=False)
     type = models.CharField(max_length=50, null=False, blank=False)
     muscle = models.CharField(max_length=50, null=False, blank=False)
