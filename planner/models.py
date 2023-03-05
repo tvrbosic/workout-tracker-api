@@ -9,7 +9,7 @@ from programs.models import Program
 
 class CalendarEntries(models.Model):
     user = models.ForeignKey(CustomUser, on_delete=models.CASCADE, related_name='calendar_entries')
-    status = models.CharField(max_length=50, null=False, blank=False)
+    status = models.CharField(max_length=50)
     
     # Generic Foreign Key Relationship
     content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)
@@ -25,7 +25,7 @@ class CalendarEntries(models.Model):
 
 
 class WorkoutEntry(models.Model):
-    date = models.DateField(null=False, blank=False)
+    date = models.DateField()
     workout = models.ForeignKey(Workout, on_delete=models.CASCADE, related_name='workout_entries')
 
     def __str__(self):
@@ -37,8 +37,8 @@ class WorkoutEntry(models.Model):
 
 
 class ProgamEntry(models.Model):
-    start_date = models.DateField(null=False, blank=False)
-    end_date = models.DateField(null=False, blank=False)
+    start_date = models.DateField()
+    end_date = models.DateField()
     program = models.ForeignKey(Program, on_delete=models.CASCADE, related_name='program_entries')
 
     def __str__(self):
