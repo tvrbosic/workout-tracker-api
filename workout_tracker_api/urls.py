@@ -30,5 +30,6 @@ urlpatterns = [
     path(BASE_API_PATH + 'refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     # Workouts
     path(BASE_API_PATH, include('workouts.urls')),
+    path(BASE_API_PATH, include('exercises.urls')),
 
 ]

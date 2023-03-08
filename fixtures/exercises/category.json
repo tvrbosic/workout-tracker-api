@@ -1,0 +1,51 @@
+[
+    {
+        "model": "exercises.category",
+        "pk": 19,
+        "fields": {
+            "name": "strength"
+        }
+    },
+    {
+        "model": "exercises.category",
+        "pk": 20,
+        "fields": {
+            "name": "stretching"
+        }
+    },
+    {
+        "model": "exercises.category",
+        "pk": 21,
+        "fields": {
+            "name": "plyometrics"
+        }
+    },
+    {
+        "model": "exercises.category",
+        "pk": 22,
+        "fields": {
+            "name": "strongman"
+        }
+    },
+    {
+        "model": "exercises.category",
+        "pk": 23,
+        "fields": {
+            "name": "powerlifting"
+        }
+    },
+    {
+        "model": "exercises.category",
+        "pk": 24,
+        "fields": {
+            "name": "cardio"
+        }
+    },
+    {
+        "model": "exercises.category",
+        "pk": 25,
+        "fields": {
+            "name": "olympic weightlifting"
+        }
+    }
+]

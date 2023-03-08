@@ -1,0 +1,121 @@
+[
+    {
+        "model": "exercises.muscle",
+        "pk": 73,
+        "fields": {
+            "name": "abdominals"
+        }
+    },
+    {
+        "model": "exercises.muscle",
+        "pk": 74,
+        "fields": {
+            "name": "hamstrings"
+        }
+    },
+    {
+        "model": "exercises.muscle",
+        "pk": 75,
+        "fields": {
+            "name": "calves"
+        }
+    },
+    {
+        "model": "exercises.muscle",
+        "pk": 76,
+        "fields": {
+            "name": "shoulders"
+        }
+    },
+    {
+        "model": "exercises.muscle",
+        "pk": 77,
+        "fields": {
+            "name": "adductors"
+        }
+    },
+    {
+        "model": "exercises.muscle",
+        "pk": 78,
+        "fields": {
+            "name": "glutes"
+        }
+    },
+    {
+        "model": "exercises.muscle",
+        "pk": 79,
+        "fields": {
+            "name": "quadriceps"
+        }
+    },
+    {
+        "model": "exercises.muscle",
+        "pk": 80,
+        "fields": {
+            "name": "biceps"
+        }
+    },
+    {
+        "model": "exercises.muscle",
+        "pk": 81,
+        "fields": {
+            "name": "forearms"
+        }
+    },
+    {
+        "model": "exercises.muscle",
+        "pk": 82,
+        "fields": {
+            "name": "abductors"
+        }
+    },
+    {
+        "model": "exercises.muscle",
+        "pk": 83,
+        "fields": {
+            "name": "triceps"
+        }
+    },
+    {
+        "model": "exercises.muscle",
+        "pk": 84,
+        "fields": {
+            "name": "chest"
+        }
+    },
+    {
+        "model": "exercises.muscle",
+        "pk": 85,
+        "fields": {
+            "name": "lower back"
+        }
+    },
+    {
+        "model": "exercises.muscle",
+        "pk": 86,
+        "fields": {
+            "name": "traps"
+        }
+    },
+    {
+        "model": "exercises.muscle",
+        "pk": 87,
+        "fields": {
+            "name": "middle back"
+        }
+    },
+    {
+        "model": "exercises.muscle",
+        "pk": 88,
+        "fields": {
+            "name": "lats"
+        }
+    },
+    {
+        "model": "exercises.muscle",
+        "pk": 89,
+        "fields": {
+            "name": "neck"
+        }
+    }
+]
