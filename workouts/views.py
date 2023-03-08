@@ -1,11 +1,16 @@
 from rest_framework import generics
+from rest_framework.permissions import IsAuthenticated
 
 from .models import Workout
 from .serializers import WorkoutSerializer
 
 class WorkoutsView(generics.ListAPIView):
-    queryset = Workout.objects.all()
     serializer_class = WorkoutSerializer
+    permission_classes = [IsAuthenticated]
 
     def get_queryset(self):
-        return Workout.objects.all()
+        """
+        Return a list of all Workouts for the currently authenticated user.
+        """
+        user = self.request.user
+        return Workout.objects.filter(user=user.id)
