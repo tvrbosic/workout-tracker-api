@@ -1,0 +1,23 @@
+[
+    {
+        "model": "exercises.difficulty",
+        "pk": 1,
+        "fields": {
+            "name": "Beginner"
+        }
+    },
+    {
+        "model": "exercises.difficulty",
+        "pk": 2,
+        "fields": {
+            "name": "Intermediate"
+        }
+    },
+    {
+        "model": "exercises.difficulty",
+        "pk": 3,
+        "fields": {
+            "name": "Expert"
+        }
+    }
+]

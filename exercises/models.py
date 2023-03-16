@@ -22,6 +22,17 @@ class Category(models.Model):
         verbose_name_plural = ("Categories")
 
 
+class Difficulty(models.Model):
+    name = models.CharField(max_length=25)
+
+    def __str__(self):
+        return f"{self.name}"
+
+    class Meta:
+        verbose_name = ("Difficulty")
+        verbose_name_plural = ("Difficulties")
+
+
 class Exercise(models.Model):
     name = models.CharField(max_length=100)
     difficulty = models.CharField(max_length=25)

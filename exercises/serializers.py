@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import Muscle, Category, Exercise
+from .models import Muscle, Category, Difficulty, Exercise
 
 
 class MuscleSerializer(serializers.ModelSerializer):
@@ -12,6 +12,12 @@ class MuscleSerializer(serializers.ModelSerializer):
 class CategorySerializer(serializers.ModelSerializer):
     class Meta:
         model = Category
+        fields = "__all__"
+
+
+class DifficultySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Difficulty
         fields = "__all__"
 
 
