@@ -35,7 +35,7 @@ class Difficulty(models.Model):
 
 class Exercise(models.Model):
     name = models.CharField(max_length=100)
-    difficulty = models.CharField(max_length=25)
+    difficulty = models.ForeignKey(Difficulty, on_delete=models.PROTECT, related_name='exercises')
     category = models.ForeignKey(Category, on_delete=models.PROTECT, related_name='exercises')
     primary_muscle = models.ForeignKey(Muscle, on_delete=models.PROTECT, related_name='exercises_pm')
     secondary_muscles = models.ManyToManyField(Muscle, related_name='exercises_sm', blank=True)

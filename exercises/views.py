@@ -24,6 +24,19 @@ class DifficultyView(generics.ListAPIView):
 
 
 class ExerciseView(generics.ListCreateAPIView):
-    queryset = Exercise.objects.all()
     serializer_class = ExerciseSerializer
-    permission_classes  = [IsAuthenticated]    
+    permission_classes  = [IsAuthenticated]
+
+    def get_queryset(self):
+        queryset = Exercise.objects.all()
+        category = self.request.query_params.get('category')
+        muscle = self.request.query_params.get('muscle')
+        difficulty = self.request.query_params.get('difficulty')
+
+        if category is not None:
+            queryset = queryset.filter(category=category)
+        if muscle is not None:
+            queryset = queryset.filter(primary_muscle=muscle)
+        if difficulty is not None:
+            queryset = queryset.filter(difficulty=difficulty)
+        return queryset

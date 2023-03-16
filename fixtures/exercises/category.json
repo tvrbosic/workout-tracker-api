@@ -1,51 +1,51 @@
 [
     {
         "model": "exercises.category",
-        "pk": 19,
+        "pk": 1,
         "fields": {
-            "name": "strength"
+            "name": "Strength"
         }
     },
     {
         "model": "exercises.category",
-        "pk": 20,
+        "pk": 2,
         "fields": {
-            "name": "stretching"
+            "name": "Stretching"
         }
     },
     {
         "model": "exercises.category",
-        "pk": 21,
+        "pk": 3,
         "fields": {
-            "name": "plyometrics"
+            "name": "Plyometrics"
         }
     },
     {
         "model": "exercises.category",
-        "pk": 22,
+        "pk": 4,
         "fields": {
-            "name": "strongman"
+            "name": "Strongman"
         }
     },
     {
         "model": "exercises.category",
-        "pk": 23,
+        "pk": 5,
         "fields": {
-            "name": "powerlifting"
+            "name": "Powerlifting"
         }
     },
     {
         "model": "exercises.category",
-        "pk": 24,
+        "pk": 6,
         "fields": {
-            "name": "cardio"
+            "name": "Cardio"
         }
     },
     {
         "model": "exercises.category",
-        "pk": 25,
+        "pk": 7,
         "fields": {
-            "name": "olympic weightlifting"
+            "name": "Olympic weightlifting"
         }
     }
 ]

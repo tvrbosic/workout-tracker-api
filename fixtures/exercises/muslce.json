@@ -1,121 +1,121 @@
 [
     {
         "model": "exercises.muscle",
-        "pk": 73,
+        "pk": 1,
         "fields": {
-            "name": "abdominals"
+            "name": "Abdominals"
         }
     },
     {
         "model": "exercises.muscle",
-        "pk": 74,
+        "pk": 2,
         "fields": {
-            "name": "hamstrings"
+            "name": "Hamstrings"
         }
     },
     {
         "model": "exercises.muscle",
-        "pk": 75,
+        "pk": 3,
         "fields": {
             "name": "calves"
         }
     },
     {
         "model": "exercises.muscle",
-        "pk": 76,
+        "pk": 4,
         "fields": {
-            "name": "shoulders"
+            "name": "Shoulders"
         }
     },
     {
         "model": "exercises.muscle",
-        "pk": 77,
+        "pk": 5,
         "fields": {
-            "name": "adductors"
+            "name": "Adductors"
         }
     },
     {
         "model": "exercises.muscle",
-        "pk": 78,
+        "pk": 6,
         "fields": {
-            "name": "glutes"
+            "name": "Glutes"
         }
     },
     {
         "model": "exercises.muscle",
-        "pk": 79,
+        "pk": 7,
         "fields": {
-            "name": "quadriceps"
+            "name": "Quadriceps"
         }
     },
     {
         "model": "exercises.muscle",
-        "pk": 80,
+        "pk": 8,
         "fields": {
-            "name": "biceps"
+            "name": "Biceps"
         }
     },
     {
         "model": "exercises.muscle",
-        "pk": 81,
+        "pk": 9,
         "fields": {
-            "name": "forearms"
+            "name": "Forearms"
         }
     },
     {
         "model": "exercises.muscle",
-        "pk": 82,
+        "pk": 10,
         "fields": {
-            "name": "abductors"
+            "name": "Abductors"
         }
     },
     {
         "model": "exercises.muscle",
-        "pk": 83,
+        "pk": 11,
         "fields": {
-            "name": "triceps"
+            "name": "Triceps"
         }
     },
     {
         "model": "exercises.muscle",
-        "pk": 84,
+        "pk": 12,
         "fields": {
-            "name": "chest"
+            "name": "Chest"
         }
     },
     {
         "model": "exercises.muscle",
-        "pk": 85,
+        "pk": 13,
         "fields": {
-            "name": "lower back"
+            "name": "Lower back"
         }
     },
     {
         "model": "exercises.muscle",
-        "pk": 86,
+        "pk": 14,
         "fields": {
-            "name": "traps"
+            "name": "Traps"
         }
     },
     {
         "model": "exercises.muscle",
-        "pk": 87,
+        "pk": 15,
         "fields": {
-            "name": "middle back"
+            "name": "Middle back"
         }
     },
     {
         "model": "exercises.muscle",
-        "pk": 88,
+        "pk": 16,
         "fields": {
-            "name": "lats"
+            "name": "Lats"
         }
     },
     {
         "model": "exercises.muscle",
-        "pk": 89,
+        "pk": 17,
         "fields": {
-            "name": "neck"
+            "name": "Neck"
         }
     }
 ]
