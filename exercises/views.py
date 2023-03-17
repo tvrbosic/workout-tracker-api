@@ -29,10 +29,13 @@ class ExerciseView(generics.ListCreateAPIView):
 
     def get_queryset(self):
         queryset = Exercise.objects.all()
+        name = self.request.query_params.get('name')
         category = self.request.query_params.get('category')
         muscle = self.request.query_params.get('muscle')
         difficulty = self.request.query_params.get('difficulty')
 
+        if name is not None:
+            queryset = queryset.filter(name__icontains=name)
         if category is not None:
             queryset = queryset.filter(category=category)
         if muscle is not None:
